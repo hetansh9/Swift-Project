@@ -16,7 +16,7 @@ struct ContentView: View {
                 .font(.headline)
             Text("Hello Patel")
                 .padding()
-                .font(.subheadline)
+                .font(.headline)
         }
     }
 }

@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		58D5BCBA265621F700A91382 /* FoodsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5BCB9265621F700A91382 /* FoodsData.swift */; };
 		58D5BCBD2656225700A91382 /* FoodsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5BCBC2656225700A91382 /* FoodsModel.swift */; };
+
+		58D5BCC42656271300A91382 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5BCC32656271300A91382 /* OnboardingView.swift */; };
+
 		7183608F265627140054375A /* FoodCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7183608E265627140054375A /* FoodCardView.swift */; };
+
 		71BE074426532C1000F820B3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE074326532C1000F820B3 /* Tests_iOS.swift */; };
 		71BE074F26532C1000F820B3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE074E26532C1000F820B3 /* Tests_macOS.swift */; };
 		71BE075126532C1000F820B3 /* Swift_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE072826532C0F00F820B3 /* Swift_ProjectApp.swift */; };
 		71BE075226532C1000F820B3 /* Swift_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE072826532C0F00F820B3 /* Swift_ProjectApp.swift */; };
 		71BE075326532C1000F820B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE072926532C0F00F820B3 /* ContentView.swift */; };
-		71BE075426532C1000F820B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BE072926532C0F00F820B3 /* ContentView.swift */; };
 		71BE075526532C1000F820B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BE072A26532C0F00F820B3 /* Assets.xcassets */; };
 		71BE075626532C1000F820B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BE072A26532C0F00F820B3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -40,7 +43,11 @@
 /* Begin PBXFileReference section */
 		58D5BCB9265621F700A91382 /* FoodsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsData.swift; sourceTree = "<group>"; };
 		58D5BCBC2656225700A91382 /* FoodsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsModel.swift; sourceTree = "<group>"; };
+
+		58D5BCC32656271300A91382 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+
 		7183608E265627140054375A /* FoodCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardView.swift; sourceTree = "<group>"; };
+
 		71BE072826532C0F00F820B3 /* Swift_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ProjectApp.swift; sourceTree = "<group>"; };
 		71BE072926532C0F00F820B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71BE072A26532C0F00F820B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,12 +112,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+
+		58D5BCC22656270C00A91382 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				71BE072926532C0F00F820B3 /* ContentView.swift */,
+				58D5BCC32656271300A91382 /* OnboardingView.swift */,
+			);
+			path = App;
+
 		7183608C265626B30054375A /* V */ = {
 			isa = PBXGroup;
 			children = (
 				7183608E265627140054375A /* FoodCardView.swift */,
 			);
 			path = V;
+
 			sourceTree = "<group>";
 		};
 		71BE072226532C0E00F820B3 = {
@@ -128,11 +145,14 @@
 		71BE072726532C0F00F820B3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+
+				58D5BCC22656270C00A91382 /* App */,
+
 				7183608C265626B30054375A /* V */,
+
 				58D5BCBB2656224A00A91382 /* Model */,
 				58D5BCB82656201300A91382 /* Data */,
 				71BE072826532C0F00F820B3 /* Swift_ProjectApp.swift */,
-				71BE072926532C0F00F820B3 /* ContentView.swift */,
 				71BE072A26532C0F00F820B3 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -344,7 +364,11 @@
 				71BE075326532C1000F820B3 /* ContentView.swift in Sources */,
 				71BE075126532C1000F820B3 /* Swift_ProjectApp.swift in Sources */,
 				58D5BCBA265621F700A91382 /* FoodsData.swift in Sources */,
+
+				58D5BCC42656271300A91382 /* OnboardingView.swift in Sources */,
+
 				7183608F265627140054375A /* FoodCardView.swift in Sources */,
+
 				58D5BCBD2656225700A91382 /* FoodsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +377,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71BE075426532C1000F820B3 /* ContentView.swift in Sources */,
 				71BE075226532C1000F820B3 /* Swift_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

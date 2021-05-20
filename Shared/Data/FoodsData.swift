@@ -16,8 +16,13 @@ let foodsData: [Food] = [
 
     Food(title: "Explore", headline: "Foods", image: "breakfast", gradientColors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")], description: "This is a test description", nutrition: ["akjcs"]),
 
-    Food(title: "Explore", headline: "Foods", image: "breakfast", gradientColors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")], description: "This is a test description", nutrition: ["kjasbckjbc"])
+    Food(title: "Explore", headline: "Foods", image: "breakfast", gradientColors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")], description: "This is a test description", nutrition: ["kjasbckjbc"]),
     
     // Hetansh
+    
+    Food(title: "Explore", headline: "Foods", image: "diet", gradientColors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")], description: "Healthy Recipes", nutrition: ["test version"]),
+    
+    Food(title: "Explore", headline: "Foods", image: "hamburger", gradientColors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")], description: "Tasty Dinner", nutrition: ["test version"]),
+
 
 ]
